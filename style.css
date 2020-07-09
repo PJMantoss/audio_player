@@ -60,4 +60,5 @@ body {
 
 .text {
     color: white;
+    display: block;
 }
