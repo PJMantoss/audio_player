@@ -25,7 +25,16 @@ body {
     position: relative;
     height: 300px;
     width: 300px;
+    background: #262626;
     background: linear-gradient(0deg, black, #262626);
     border-radius: 50%;
+}
+
+.glow::before, .glow::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: linear-gradient(45deg, #ff00ee, #0000ff, #00ff00, #ff0000,);
 }
 
