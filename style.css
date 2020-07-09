@@ -18,14 +18,13 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-    margin: auto;
 }
 
 .glow {
     position: relative;
+    margin-top: 80px;
     height: 300px;
     width: 300px;
-    background: #262626;
     background: linear-gradient(0deg, black, #262626);
     border-radius: 50%;
 }
@@ -46,7 +45,7 @@ body {
 }
 
 .glow::after {
-    filter: blur(20px);
+    filter: blur(30px);
 }
 
 .text-div {
@@ -62,3 +61,4 @@ body {
     color: white;
     display: block;
 }
+
