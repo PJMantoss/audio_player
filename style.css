@@ -60,3 +60,11 @@ body {
     display: block;
 }
 
+button {
+    background: linear-gradient(0deg, #000000, #262626);
+    color: white;
+    width: 55px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
