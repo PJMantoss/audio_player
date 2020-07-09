@@ -5,14 +5,6 @@ let song = new Audio,
 song.type = 'audio/mpeg';
 song.src = 'https://www.bensound.com/bensound-music/bensound-summer.mp3';
 
-//Add event listener
-song.addEventListener('timeupdate', function(){
-    curtime = parseInt(song.currentTime, 10);
-
-    document.getElementById('seek').max = song.duration;
-    document.getElementById('seek').value = curtime;
-})
-
 //Control for Backward & Forward buttons
 skip = time => {
     if(time == 'back'){
@@ -61,3 +53,11 @@ setVolume = volume => {
     song.volume = volume;
     vol = volume;
 }
+
+//Add event listener
+song.addEventListener('timeupdate', function(){
+    curtime = parseInt(song.currentTime, 10);
+
+    document.getElementById('seek').max = song.duration;
+    document.getElementById('seek').value = curtime;
+})
