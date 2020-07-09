@@ -53,3 +53,7 @@ setVolume = volume => {
     song.volume = volume;
     vol = volume;
 }
+
+song.addEventListener('timeupdate', function(){
+    curtime = parseInt(song.currentTime, 10);
+})
