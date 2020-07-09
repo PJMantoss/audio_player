@@ -23,4 +23,9 @@ playpause = () => {
     }
 }
 
-//
+//Control for stop button
+stop = () => {
+    song.pause();
+    song.currentTime = 0;
+    document.getElementById('seek').value = 0;
+}
