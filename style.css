@@ -80,3 +80,11 @@ input[type="range"]{
     vertical-align: middle;
     outline: none;
 }
+
+input::-webkit-slider-thumb{
+    background: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
