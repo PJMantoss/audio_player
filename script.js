@@ -14,7 +14,7 @@ skip = time => {
     }
 }
 
-//Controls for Play & Pause buttons
+//Control for Play & Pause buttons
 playpause = () => {
     if(!song.paused){
         song.pause();
@@ -29,3 +29,9 @@ stop = () => {
     song.currentTime = 0;
     document.getElementById('seek').value = 0;
 }
+
+//Control for stop button
+setPos = pos => {
+    song.currentTime = pos;
+}
+
