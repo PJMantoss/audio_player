@@ -47,3 +47,9 @@ mute = () => {
         document.getElementById('muted').innerHTML = '<i class="fa fa-volume-up"></i>';
     }
 }
+
+//
+setVolume = volume => {
+    song.volume = volume;
+    vol = volume;
+}
