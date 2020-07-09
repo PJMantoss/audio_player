@@ -48,7 +48,7 @@ mute = () => {
     }
 }
 
-//
+//Control for Setting Volume
 setVolume = volume => {
     song.volume = volume;
     vol = volume;
