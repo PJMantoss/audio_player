@@ -25,7 +25,7 @@ body {
     position: relative;
     height: 300px;
     width: 300px;
-    background: #262626;
+    background: linear-gradient(0deg, black, #262626);
     border-radius: 50%;
 }
 
