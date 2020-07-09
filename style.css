@@ -73,6 +73,7 @@ button {
 }
 
 input[type="range"]{
+    -webkit-appearance: none;
     background: #232323;
     border: 1px solid black;
     border-radius: 20px;
@@ -82,9 +83,15 @@ input[type="range"]{
 }
 
 input::-webkit-slider-thumb{
+    -webkit-appearance: none;
     background: white;
     width: 20px;
     height: 20px;
     border-radius: 10px;
     border: 1px solid black;
+}
+
+#seek {
+    display: block;
+    width: 230px;
 }
