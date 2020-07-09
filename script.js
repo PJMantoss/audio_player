@@ -40,5 +40,10 @@ mute = () => {
     if(muted){
         song.volume = vol;
         muted = false;
+        document.getElementById('mute').innerHTML = '<i class="fa fa-volume-up"></i>';
+    }else {
+        song.volume = 0;
+        muted = true;
+        document.getElementById('muted').innerHTML = '<i class="fa fa-volume-up"></i>';
     }
 }
