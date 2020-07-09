@@ -45,3 +45,6 @@ body {
     z-index: -1;
 }
 
+.glow::after {
+    filter: blur(20px);
+}
