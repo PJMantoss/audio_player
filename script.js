@@ -54,6 +54,10 @@ setVolume = volume => {
     vol = volume;
 }
 
+//Add event listener
 song.addEventListener('timeupdate', function(){
     curtime = parseInt(song.currentTime, 10);
+
+    document.getElementById('seek').max = song.duration;
+    document.getElementById('seek').value = curtime;
 })
