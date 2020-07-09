@@ -5,7 +5,7 @@ let song = new Audio,
 song.type = 'audio/mpeg';
 song.src = 'https://www.bensound.com/bensound-music/bensound-summer.mp3';
 
-//Backward & Forward Controls
+//Controls for Backward & Forward buttons
 skip = time => {
     if(time == 'back'){
         song.currentTime = (song.currentTime - 5);
@@ -14,7 +14,7 @@ skip = time => {
     }
 }
 
-//Play & Pause Controls
+//Controls for Play & Pause buttons
 playpause = () => {
     if(!song.paused){
         song.pause();
