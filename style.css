@@ -21,3 +21,11 @@ body {
     margin: auto;
 }
 
+.glow {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background: #262626;
+    border-radius: 50%;
+}
+
