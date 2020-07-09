@@ -12,3 +12,12 @@ let skip = time => {
         song.currentTime = (song.currentTime + 5);
     }
 }
+
+//Control for Play & Pause
+let playpause = () => {
+    if(!song.paused){
+        song.pause();
+    }else{
+        song.play();
+    }
+}
