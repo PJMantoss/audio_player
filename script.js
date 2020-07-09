@@ -35,3 +35,10 @@ setPos = pos => {
     song.currentTime = pos;
 }
 
+//
+mute = () => {
+    if(muted){
+        song.volume = vol;
+        muted = false;
+    }
+}
