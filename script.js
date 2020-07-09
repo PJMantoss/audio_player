@@ -3,7 +3,8 @@ let song = new Audio,
     vol = 1;
 
 song.type = 'audio/mpeg';
-song.src = 'https://www.bensound.com/bensound-music/bensound-summer.mp3';
+song.src = 'Im So Hood.mp3'
+//song.src = 'https://www.bensound.com/bensound-music/bensound-summer.mp3';
 
 //Control for Backward & Forward buttons
 skip = time => {
