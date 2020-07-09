@@ -35,7 +35,7 @@ setPos = pos => {
     song.currentTime = pos;
 }
 
-//
+//Control for mute button
 mute = () => {
     if(muted){
         song.volume = vol;
