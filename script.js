@@ -31,7 +31,7 @@ stop = () => {
     document.getElementById('seek').value = 0;
 }
 
-//Control for stop button
+//Control for seek
 setPos = pos => {
     song.currentTime = pos;
 }
@@ -45,7 +45,7 @@ mute = () => {
     }else {
         song.volume = 0;
         muted = true;
-        document.getElementById('muted').innerHTML = '<i class="fa fa-volume-up"></i>';
+        document.getElementById('mute').innerHTML = '<i class="fa fa-volume-up"></i>';
     }
 }
 
