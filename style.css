@@ -9,6 +9,10 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     box-sizing: border-box;
     background: black;
 }
@@ -95,6 +99,11 @@ input::-webkit-slider-thumb{
 #seek {
     display: block;
     width: 230px;
+}
+
+img {
+    width: 10%;
+    align-self: center;
 }
 
 @keyframes animate {
