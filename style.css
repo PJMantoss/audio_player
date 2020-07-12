@@ -10,9 +10,8 @@ html {
 
 body {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     box-sizing: border-box;
     background: black;
 }
@@ -21,7 +20,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100%;
 }
 
 .glow {
@@ -102,8 +100,8 @@ input::-webkit-slider-thumb{
 }
 
 img {
-    width: 10%;
-    align-self: center;
+    width: 5%;
+    margin: 0 0 0 100px;
 }
 
 @keyframes animate {
